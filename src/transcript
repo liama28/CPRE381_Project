@@ -1,0 +1,173 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd src
+vlib work
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:43:53 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(31): (vcom-1294) Declaration with designator "s_regInput" already exists in this region.
+# ** =====> Prior declaration of "s_regInput" is at /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(30).
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(39): near "port": syntax error
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(46): (vcom-1136) Unknown identifier "s_regOutput".
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(47): (vcom-1136) Unknown identifier "s_regOutput".
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_clk" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_writeEn" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_reset" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_D" has OPEN or no actual associated with it.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(49): VHDL Compiler exiting
+# End time: 15:43:53 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:45:10 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(39): near "port": syntax error
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_clk" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_writeEn" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_reset" has OPEN or no actual associated with it.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(38): (vcom-1035) Formal port "i_D" has OPEN or no actual associated with it.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd(49): VHDL Compiler exiting
+# End time: 15:45:11 on Nov 10,2021, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 15:45:22 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/IF_ID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IF_ID
+# -- Compiling architecture structural of IF_ID
+# End time: 15:45:22 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+pwd
+# /home/liama28/CPRE381/Project02/381project2/src
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:17:29 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(59): Illegal target for signal assignment.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(59): (vcom-1136) Unknown identifier "o_SignExtend".
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(60): Illegal target for signal assignment.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(60): (vcom-1136) Unknown identifier "o_LUI".
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(43): (vcom-1272) Length of expected is 64; length of actual is 137.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(54): (vcom-1152) Index value 136 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(55): (vcom-1152) Index value 135 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(56): (vcom-1167) Index value 134 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(56): (vcom-1167) Index value 128 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(57): (vcom-1167) Index value 127 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(57): (vcom-1167) Index value 96 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(58): (vcom-1167) Index value 95 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(62): VHDL Compiler exiting
+# End time: 16:17:29 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:21 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(61): Illegal target for signal assignment.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(61): (vcom-1136) Unknown identifier "o_LUI".
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(44): (vcom-1272) Length of expected is 64; length of actual is 137.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(55): (vcom-1152) Index value 136 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(56): (vcom-1152) Index value 135 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(57): (vcom-1167) Index value 134 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(57): (vcom-1167) Index value 128 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(58): (vcom-1167) Index value 127 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(58): (vcom-1167) Index value 96 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(59): (vcom-1167) Index value 95 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(63): VHDL Compiler exiting
+# End time: 16:18:21 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:18:58 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(45): (vcom-1272) Length of expected is 64; length of actual is 137.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(56): (vcom-1152) Index value 136 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(57): (vcom-1152) Index value 135 is out of index range 63 downto 0 of ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(58): (vcom-1167) Index value 134 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(58): (vcom-1167) Index value 128 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(59): (vcom-1167) Index value 127 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(59): (vcom-1167) Index value 96 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(60): (vcom-1167) Index value 95 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(62): (vcom-1167) Index value 168 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Error: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(62): (vcom-1167) Index value 137 (of type ieee.std_logic_1164.STD_LOGIC_VECTOR) is out of range 63 downto 0.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(64): VHDL Compiler exiting
+# End time: 16:18:58 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:19:53 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(45): (vcom-1272) Length of expected is 169; length of actual is 137.
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(60): (vcom-1272) Length of expected is 32; length of slice name is 64.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(64): VHDL Compiler exiting
+# End time: 16:19:53 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:23:33 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# ** Error (suppressible): /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(45): (vcom-1272) Length of expected is 169; length of actual is 137.
+# ** Note: /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd(64): VHDL Compiler exiting
+# End time: 16:23:34 on Nov 10,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 16:24:01 on Nov 10,2021
+# vcom -reportprogress 300 -work work /home/liama28/CPRE381/Project02/381project2/src/ID_EX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ID_EX
+# -- Compiling architecture structural of ID_EX
+# End time: 16:24:01 on Nov 10,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
